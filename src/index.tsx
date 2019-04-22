@@ -4,7 +4,6 @@ import App from "./App";
 import { getMountPointSelector } from "./adapter";
 
 try {
-  alert("here we go");
   const mountPoint = getMountPointSelector();
   console.log("mountPoint", mountPoint);
   console.log("querySelector", document.querySelector(mountPoint));
